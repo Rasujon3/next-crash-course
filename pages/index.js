@@ -5,10 +5,6 @@ import ArticleList from "../components/ArticleList";
 export default function Home({ articles }) {
   return (
     <div>
-      <Head>
-        <title>WebDev News</title>
-        <meta name="keywords" content="web development, programming" />
-      </Head>
       <ArticleList articles={articles} />
     </div>
   );
